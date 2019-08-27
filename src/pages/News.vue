@@ -7,8 +7,8 @@
         <div class="columns is-vcentered">
       <div class="column is-12">
 
-     <h1 class="title is-2 is-light is-spaced">Welcome to Vue Wordpress blog</h1>
-    <div class="post-list">"
+     <h1>Welcome to Vue Wordpress blog</h1>
+    <div class="post-list">
       <p class="has-text-light" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
         <Post :post="node" />
       </p>
