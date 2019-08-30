@@ -1,7 +1,35 @@
-/*module.exports = {
+module.exports = {
   plugins: [
     {
-      use: '~/path/to/folder',
+      use: '~/assets/js/jquery.min.js',
+      options: {}
+    },
+    {
+      use: '~/assets/js/jquery.dropotron.min.js',
+      options: {}
+    },
+    {
+      use: '~/assets/js/jquery.scrollex.min.js',
+      options: {}
+    },
+    {
+      use: '~/assets/js/jquery.scrolly.min.js',
+      options: {}
+    },
+    {
+      use: '~/assets/js/main.js',
+      options: {}
+    },
+    {
+      use: '~/assets/js/util.js',
+      options: {}
+    },
+    {
+      use: '~/assets/js/browser.min.js',
+      options: {}
+    },
+    {
+      use: '~/assets/js/breakpoints.min.js',
       options: {}
     }
   ]

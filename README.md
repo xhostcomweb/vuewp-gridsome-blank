@@ -11,7 +11,7 @@ Install Gridsome first, then clone repo and run yarn.
 Uses no CSS custom nav, but can swap out nav, header, footer for your own.
 Just change nav and page templates to yours, header and footer in components folder.
 4 pages made, Home, About, Blog/News and Contact
-See main.js for imports, put extra plugins in index.js.  DELETE index.html if not required but that currently pulls in Font Awesome 4.7 (usually for cdns/font awsome etc). Some extra assets in images and img folder, not used yet.
+See main.js for imports, put extra plugins in index.js.  DELETE index.html if not required but that currently pulls in Font Awesome 4.7 (usually for cdns/font awsome etc). Some extra assets in images and img folder, not used yet, nor are the js files imported in to index.js as examples.
 
 ## Guide
 
